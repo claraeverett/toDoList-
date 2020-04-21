@@ -1,0 +1,46 @@
+.App {
+  margin:40px auto;
+  min-height:500px;
+  width: 400px;
+}
+
+.title {
+  font-size: 55px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.bar {
+  background-color: #EDEDED;
+  height:25px;
+  width:100%;
+}
+
+#input-form input {
+  background-color: rgb(27,112,137);
+  border:0;
+  color:#fff;
+  font-size: 18px;
+  height:50px;
+  margin: 20px;
+  padding:0 20px;
+  width: 200px;
+}
+
+#input-form input::placeholder {
+  color: rgba(255,255,255,0.5);
+}
+
+#input-form input:focus, #input-form button:focus {
+  outline: none;
+}
+
+#input-form button {
+  background-color: #EDEDED;
+  border:0;
+  color:#000;
+  cursor: pointer;
+  font-weight: bolder;
+  height: 50px;
+  width: 80px;
+}
