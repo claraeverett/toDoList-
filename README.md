@@ -1,2 +1,1 @@
-# toDoList-
-Simple to-do list built using React.js
+This application is a simple todo app built using React.js. 
